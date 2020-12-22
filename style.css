@@ -9,6 +9,7 @@ body{display: flex;}
 #scroll.deco::-webkit-scrollbar-track{
     border-radius: 10px;
     background: skyblue;
+    font-size: smaller;
 }
 #main{
     width: 70vw;
