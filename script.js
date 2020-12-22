@@ -647,8 +647,8 @@ ri.addEventListener("click", event => {
     document.getElementById("i6").textContent = "";
 })
 
-const gotosi = document.getElementById("gotosi")
-gotosi.addEventListener("touchstart", event => {
+document.getElementById("gotosi").addEventListener('touchstart', logTouchStart);
+function logTouchStart() {
     document.getElementById("th").textContent = "ごとし";
     document.getElementById("connect").textContent = "体言・連体・格助詞｢が｣｢の｣";
     document.getElementById("mizen").textContent = "ごとく";
@@ -670,7 +670,7 @@ gotosi.addEventListener("touchstart", event => {
     document.getElementById("i5").textContent = "";
     document.getElementById("i6").textContent = "";
     connect.style.color = "gray"
-});
+};
 
 document.getElementById("connect").addEventListener('touchstart', logTouchStart);
     function logTouchStart() {
