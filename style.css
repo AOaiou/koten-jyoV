@@ -3,6 +3,7 @@ body{display: flex;}
     height: 90vh;
     width: 25vw;
     overflow-y: scroll;
+    overflow: scroll;
 }
 #scroll.deco::-webkit-scrollbar{width: 15px;}
 #scroll.deco::-webkit-scrollbar-track{
@@ -13,7 +14,6 @@ body{display: flex;}
 #main{
     width: 70vw;
     height: 50vh;
-    overflow: scroll;
 }
 ul{
     display: flex;
