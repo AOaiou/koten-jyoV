@@ -25,7 +25,8 @@ button{
 button:nth-child(odd){background: pink;}
 button:nth-child(even){background: lightpink;}
 table{
-    width: auto;
+    width: 30vw;
+    height: 80vh;
     border-collapse:collapse;
     margin-left: auto;
     margin-right: auto;
