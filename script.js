@@ -669,13 +669,82 @@ function logTouchStart() {
     document.getElementById("i4").textContent = "";
     document.getElementById("i5").textContent = "";
     document.getElementById("i6").textContent = "";
-    connect.style.color = "gray"
-};
+        connect.style.color = "gray"
+    mizen.style.color = "gray"
+    renyou.style.color = "gray"
+    syusi.style.color = "gray"
+    rentai.style.color = "gray"
+    izen.style.color = "gray"
+    meirei.style.color = "gray"
+    mizen2.style.color = "gray"
+    renyou2.style.color = "gray"
+    syusi2.style.color = "gray"
+    rentai2.style.color = "gray"
+    izen2.style.color = "gray"
+    meirei2.style.color = "gray"
+    i1.style.color = "gray"
+    i2.style.color = "gray"
+    i3.style.color = "gray"
+    i4.style.color = "gray"
+    i5.style.color = "gray"
+    i6.style.color = "gray"
+});
 
-document.getElementById("connect").addEventListener('touchstart', logTouchStart);
-    function logTouchStart() {
-        console.log("あ");
-    }
 document.getElementById("connect").onclick = function () {
     connect.style.color = "white"
 }
+document.getElementById("mizen").onclick = function () {
+    mizen.style.color = "white"
+}
+document.getElementById("renyou").onclick = function () {
+    renyou.style.color = "white"
+}
+document.getElementById("syusi").onclick = function () {
+    syusi.style.color = "white"
+}
+document.getElementById("rentai").onclick = function () {
+    rentai.style.color = "white"
+}
+document.getElementById("izen").onclick = function () {
+    izen.style.color = "white"
+}
+document.getElementById("meirei").onclick = function () {
+    meirei.style.color = "white"
+}
+document.getElementById("mizen2").onclick = function () {
+    mizen2.style.color = "white"
+}
+document.getElementById("renyou2").onclick = function () {
+    renyou2.style.color = "white"
+}
+document.getElementById("syusi2").onclick = function () {
+    syusi2.style.color = "white"
+}
+document.getElementById("rentai2").onclick = function () {
+    rentai2.style.color = "white"
+}
+document.getElementById("izen2").onclick = function () {
+    izen2.style.color = "white"
+}
+document.getElementById("meirei2").onclick = function () {
+    meirei2.style.color = "white"
+}
+document.getElementById("i1").onclick = function () {
+    i1.style.color = "white"
+}
+document.getElementById("i2").onclick = function () {
+    i2.style.color = "white"
+}
+document.getElementById("i3").onclick = function () {
+    i3.style.color = "white"
+}
+document.getElementById("i4").onclick = function () {
+    i4.style.color = "white"
+}
+document.getElementById("i5").onclick = function () {
+    i5.style.color = "white"
+}
+document.getElementById("i6").onclick = function () {
+    i6.style.color = "white"
+}
+
