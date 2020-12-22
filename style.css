@@ -1,6 +1,6 @@
 body{display: flex;}
 #scroll{
-    height: 70%;
+    height: 500px;
     width: 100px;
     overflow-y: scroll;
     padding-right: 20px;
