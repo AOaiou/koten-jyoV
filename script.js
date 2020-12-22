@@ -648,7 +648,7 @@ ri.addEventListener("click", event => {
 })
 
 const gotosi = document.getElementById("gotosi")
-gotosi.addEventListener("click", event => {
+gotosi.addEventListener("touchstart", event => {
     document.getElementById("th").textContent = "ごとし";
     document.getElementById("connect").textContent = "体言・連体・格助詞｢が｣｢の｣";
     document.getElementById("mizen").textContent = "ごとく";
