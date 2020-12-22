@@ -1,9 +1,8 @@
 body{display: flex;}
 #scroll{
-    height: 70vh;
+    height: 90vh;
     width: 25vw;
     overflow-y: scroll;
-    padding-right: 20px;
 }
 #scroll.deco::-webkit-scrollbar{width: 15px;}
 #scroll.deco::-webkit-scrollbar-track{
