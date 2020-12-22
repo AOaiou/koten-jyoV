@@ -21,7 +21,7 @@ ru.addEventListener("click", event => {
     document.getElementById("i4").textContent = "自発";
     document.getElementById("i5").textContent = "";
     document.getElementById("i6").textContent = "";
-})
+});
 
 const raru = document.getElementById("raru")
 raru.addEventListener("click", event => {
@@ -45,7 +45,7 @@ raru.addEventListener("click", event => {
     document.getElementById("i4").textContent = "自発";
     document.getElementById("i5").textContent = "";
     document.getElementById("i6").textContent = "";
-})
+});
 
 const su = document.getElementById("su")
 su.addEventListener("click", event => {
@@ -69,7 +69,7 @@ su.addEventListener("click", event => {
     document.getElementById("i4").textContent = "";
     document.getElementById("i5").textContent = "";
     document.getElementById("i6").textContent = "";
-})
+});
 
 const sasu = document.getElementById("sasu")
 sasu.addEventListener("click", event => {
@@ -93,7 +93,7 @@ sasu.addEventListener("click", event => {
     document.getElementById("i4").textContent = "";
     document.getElementById("i5").textContent = "";
     document.getElementById("i6").textContent = "";
-})
+});
 
 const simu = document.getElementById("simu")
 simu.addEventListener("click", event => {
@@ -117,7 +117,7 @@ simu.addEventListener("click", event => {
     document.getElementById("i4").textContent = "";
     document.getElementById("i5").textContent = "";
     document.getElementById("i6").textContent = "";
-})
+});
 
 const zu = document.getElementById("zu")
 zu.addEventListener("click", event => {
@@ -141,7 +141,7 @@ zu.addEventListener("click", event => {
     document.getElementById("i4").textContent = "";
     document.getElementById("i5").textContent = "";
     document.getElementById("i6").textContent = "";
-})
+});
 
 const ji = document.getElementById("ji")
 ji.addEventListener("click", event => {
@@ -165,7 +165,7 @@ ji.addEventListener("click", event => {
     document.getElementById("i4").textContent = "";
     document.getElementById("i5").textContent = "";
     document.getElementById("i6").textContent = "";
-})
+});
 
 const mu = document.getElementById("mu")
 mu.addEventListener("click", event => {
@@ -189,7 +189,7 @@ mu.addEventListener("click", event => {
     document.getElementById("i4").textContent = "勧誘";
     document.getElementById("i5").textContent = "婉曲";
     document.getElementById("i6").textContent = "意志";
-})
+});
 
 const muzu = document.getElementById("muzu")
 muzu.addEventListener("click", event => {
@@ -213,7 +213,7 @@ muzu.addEventListener("click", event => {
     document.getElementById("i4").textContent = "勧誘";
     document.getElementById("i5").textContent = "婉曲";
     document.getElementById("i6").textContent = "適当";
-})
+});
 
 const masi = document.getElementById("masi")
 masi.addEventListener("click", event => {
@@ -237,7 +237,7 @@ masi.addEventListener("click", event => {
     document.getElementById("i4").textContent = "";
     document.getElementById("i5").textContent = "";
     document.getElementById("i6").textContent = "";
-})
+});
 
 const mahosi = document.getElementById("mahosi")
 mahosi.addEventListener("click", event => {
@@ -261,7 +261,7 @@ mahosi.addEventListener("click", event => {
     document.getElementById("i4").textContent = "";
     document.getElementById("i5").textContent = "";
     document.getElementById("i6").textContent = "";
-})
+});
 
 const ki = document.getElementById("ki")
 ki.addEventListener("click", event => {
@@ -285,7 +285,7 @@ ki.addEventListener("click", event => {
     document.getElementById("i4").textContent = "";
     document.getElementById("i5").textContent = "";
     document.getElementById("i6").textContent = "";
-})
+});
 
 const keri = document.getElementById("keri")
 keri.addEventListener("click", event => {
@@ -309,7 +309,7 @@ keri.addEventListener("click", event => {
     document.getElementById("i4").textContent = "";
     document.getElementById("i5").textContent = "";
     document.getElementById("i6").textContent = "";
-})
+});
 
 const tu = document.getElementById("tu")
 tu.addEventListener("click", event => {
@@ -333,7 +333,7 @@ tu.addEventListener("click", event => {
     document.getElementById("i4").textContent = "";
     document.getElementById("i5").textContent = "";
     document.getElementById("i6").textContent = "";
-})
+});
 
 const nu = document.getElementById("nu")
 nu.addEventListener("click", event => {
@@ -357,7 +357,7 @@ nu.addEventListener("click", event => {
     document.getElementById("i4").textContent = "";
     document.getElementById("i5").textContent = "";
     document.getElementById("i6").textContent = "";
-})
+});
 
 const tari = document.getElementById("tari")
 tari.addEventListener("click", event => {
@@ -381,7 +381,7 @@ tari.addEventListener("click", event => {
     document.getElementById("i4").textContent = "";
     document.getElementById("i5").textContent = "";
     document.getElementById("i6").textContent = "";
-})
+});
 
 const kemu = document.getElementById("kemu")
 kemu.addEventListener("click", event => {
@@ -405,7 +405,7 @@ kemu.addEventListener("click", event => {
     document.getElementById("i4").textContent = "過去の婉曲";
     document.getElementById("i5").textContent = "";
     document.getElementById("i6").textContent = "";
-})
+});
 
 const tasi = document.getElementById("tasi")
 tasi.addEventListener("click", event => {
@@ -429,7 +429,7 @@ tasi.addEventListener("click", event => {
     document.getElementById("i4").textContent = "";
     document.getElementById("i5").textContent = "";
     document.getElementById("i6").textContent = "";
-})
+});
 
 const besi = document.getElementById("besi")
 besi.addEventListener("click", event => {
@@ -453,7 +453,7 @@ besi.addEventListener("click", event => {
     document.getElementById("i4").textContent = "当然・義務";
     document.getElementById("i5").textContent = "命令・強い勧誘";
     document.getElementById("i6").textContent = "適当";
-})
+});
 
 const ramu = document.getElementById("ramu")
 ramu.addEventListener("click", event => {
@@ -477,7 +477,7 @@ ramu.addEventListener("click", event => {
     document.getElementById("i4").textContent = "現在の婉曲";
     document.getElementById("i5").textContent = "推量";
     document.getElementById("i6").textContent = "";
-})
+});
 
 const rasi = document.getElementById("rasi")
 rasi.addEventListener("click", event => {
@@ -501,7 +501,7 @@ rasi.addEventListener("click", event => {
     document.getElementById("i4").textContent = "";
     document.getElementById("i5").textContent = "";
     document.getElementById("i6").textContent = "";
-})
+});
 
 const meri = document.getElementById("meri")
 meri.addEventListener("click", event => {
@@ -525,7 +525,7 @@ meri.addEventListener("click", event => {
     document.getElementById("i4").textContent = "";
     document.getElementById("i5").textContent = "";
     document.getElementById("i6").textContent = "";
-})
+});
 
 const nari = document.getElementById("nari")
 nari.addEventListener("click", event => {
@@ -549,7 +549,7 @@ nari.addEventListener("click", event => {
     document.getElementById("i4").textContent = "";
     document.getElementById("i5").textContent = "";
     document.getElementById("i6").textContent = "";
-})
+});
 
 const maji = document.getElementById("maji")
 maji.addEventListener("click", event => {
@@ -573,7 +573,7 @@ maji.addEventListener("click", event => {
     document.getElementById("i4").textContent = "打消当然";
     document.getElementById("i5").textContent = "不可能推量";
     document.getElementById("i6").textContent = "";
-})
+});
 
 const nari2 = document.getElementById("nari2")
 nari2.addEventListener("click", event => {
@@ -597,7 +597,7 @@ nari2.addEventListener("click", event => {
     document.getElementById("i4").textContent = "";
     document.getElementById("i5").textContent = "";
     document.getElementById("i6").textContent = "";
-})
+});
 
 const tari2 = document.getElementById("tari2")
 tari2.addEventListener("click", event => {
@@ -621,7 +621,7 @@ tari2.addEventListener("click", event => {
     document.getElementById("i4").textContent = "";
     document.getElementById("i5").textContent = "";
     document.getElementById("i6").textContent = "";
-})
+});
 
 const ri = document.getElementById("ri")
 ri.addEventListener("click", event => {
@@ -645,10 +645,10 @@ ri.addEventListener("click", event => {
     document.getElementById("i4").textContent = "";
     document.getElementById("i5").textContent = "";
     document.getElementById("i6").textContent = "";
-})
+});
 
-document.getElementById("gotosi").addEventListener('touchstart', logTouchStart);
-function logTouchStart() {
+const gotosi = document.getElementById("gotosi")
+gotosi.addEventListener("click", event => {
     document.getElementById("th").textContent = "ごとし";
     document.getElementById("connect").textContent = "体言・連体・格助詞｢が｣｢の｣";
     document.getElementById("mizen").textContent = "ごとく";
@@ -669,7 +669,7 @@ function logTouchStart() {
     document.getElementById("i4").textContent = "";
     document.getElementById("i5").textContent = "";
     document.getElementById("i6").textContent = "";
-        connect.style.color = "gray"
+    connect.style.color = "gray"
     mizen.style.color = "gray"
     renyou.style.color = "gray"
     syusi.style.color = "gray"
@@ -692,59 +692,59 @@ function logTouchStart() {
 
 document.getElementById("connect").onclick = function () {
     connect.style.color = "white"
-}
+};
 document.getElementById("mizen").onclick = function () {
     mizen.style.color = "white"
-}
+};
 document.getElementById("renyou").onclick = function () {
     renyou.style.color = "white"
-}
+};
 document.getElementById("syusi").onclick = function () {
     syusi.style.color = "white"
-}
+};
 document.getElementById("rentai").onclick = function () {
     rentai.style.color = "white"
-}
+};
 document.getElementById("izen").onclick = function () {
     izen.style.color = "white"
-}
+};
 document.getElementById("meirei").onclick = function () {
     meirei.style.color = "white"
-}
+};
 document.getElementById("mizen2").onclick = function () {
     mizen2.style.color = "white"
-}
+};
 document.getElementById("renyou2").onclick = function () {
     renyou2.style.color = "white"
-}
+};
 document.getElementById("syusi2").onclick = function () {
     syusi2.style.color = "white"
-}
+};
 document.getElementById("rentai2").onclick = function () {
     rentai2.style.color = "white"
-}
+};
 document.getElementById("izen2").onclick = function () {
     izen2.style.color = "white"
-}
+};
 document.getElementById("meirei2").onclick = function () {
     meirei2.style.color = "white"
-}
+};
 document.getElementById("i1").onclick = function () {
     i1.style.color = "white"
-}
+};
 document.getElementById("i2").onclick = function () {
     i2.style.color = "white"
-}
+};
 document.getElementById("i3").onclick = function () {
     i3.style.color = "white"
-}
+};
 document.getElementById("i4").onclick = function () {
     i4.style.color = "white"
-}
+};
 document.getElementById("i5").onclick = function () {
     i5.style.color = "white"
-}
+};
 document.getElementById("i6").onclick = function () {
     i6.style.color = "white"
-}
+};
 
