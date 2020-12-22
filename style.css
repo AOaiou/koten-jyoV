@@ -1,7 +1,7 @@
 body{display: flex;}
 #scroll{
     height: 70%;
-    width: 50px;
+    width: 100px;
     overflow-y: scroll;
     padding-right: 20px;
 }
@@ -25,7 +25,7 @@ button{
 button:nth-child(odd){background: pink;}
 button:nth-child(even){background: lightpink;}
 table{
-    width: 100%;
+    width: auto;
     border-collapse:collapse;
     margin-left: auto;
     margin-right: auto;
