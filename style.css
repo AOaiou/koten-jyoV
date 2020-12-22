@@ -14,7 +14,7 @@ body{display: flex;}
 }
 #main{
     width: 70vw;
-    height: 50vh;
+    height: 90vh;
 }
 ul{
     display: flex;
