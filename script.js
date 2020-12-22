@@ -1,6 +1,6 @@
 
 const ru = document.getElementById("ru")
-ru.addEventListener("click", event => {
+ru.addEventListener("touchstart", event => {
     document.getElementById("th").textContent = "る";
     document.getElementById("connect").textContent = "四段ナ変ラ変の未然形";
     document.getElementById("mizen").textContent = "れ";
@@ -24,7 +24,7 @@ ru.addEventListener("click", event => {
 });
 
 const raru = document.getElementById("raru")
-raru.addEventListener("click", event => {
+raru.addEventListener("touchstart", event => {
     document.getElementById("th").textContent = "らる";
     document.getElementById("connect").textContent = "四段ナ変ラ変以外の未然形";
     document.getElementById("mizen").textContent = "られ";
@@ -48,7 +48,7 @@ raru.addEventListener("click", event => {
 });
 
 const su = document.getElementById("su")
-su.addEventListener("click", event => {
+su.addEventListener("touchstart", event => {
     document.getElementById("th").textContent = "す";
     document.getElementById("connect").textContent = "四段ナ変ラ変の未然形";
     document.getElementById("mizen").textContent = "せ";
@@ -72,7 +72,7 @@ su.addEventListener("click", event => {
 });
 
 const sasu = document.getElementById("sasu")
-sasu.addEventListener("click", event => {
+sasu.addEventListener("touchstart", event => {
     document.getElementById("th").textContent = "さす";
     document.getElementById("connect").textContent = "四段ナ変ラ変以外の未然形";
     document.getElementById("mizen").textContent = "させ";
@@ -96,7 +96,7 @@ sasu.addEventListener("click", event => {
 });
 
 const simu = document.getElementById("simu")
-simu.addEventListener("click", event => {
+simu.addEventListener("touchstart", event => {
     document.getElementById("th").textContent = "しむ";
     document.getElementById("connect").textContent = "用言の未然形";
     document.getElementById("mizen").textContent = "しめ";
@@ -120,7 +120,7 @@ simu.addEventListener("click", event => {
 });
 
 const zu = document.getElementById("zu")
-zu.addEventListener("click", event => {
+zu.addEventListener("touchstart", event => {
     document.getElementById("th").textContent = "ず";
     document.getElementById("connect").textContent = "未然形";
     document.getElementById("mizen").textContent = "ざら";
@@ -144,7 +144,7 @@ zu.addEventListener("click", event => {
 });
 
 const ji = document.getElementById("ji")
-ji.addEventListener("click", event => {
+ji.addEventListener("touchstart", event => {
     document.getElementById("th").textContent = "じ";
     document.getElementById("connect").textContent = "未然形";
     document.getElementById("mizen").textContent = "";
@@ -168,7 +168,7 @@ ji.addEventListener("click", event => {
 });
 
 const mu = document.getElementById("mu")
-mu.addEventListener("click", event => {
+mu.addEventListener("touchstart", event => {
     document.getElementById("th").textContent = "む";
     document.getElementById("connect").textContent = "未然形";
     document.getElementById("mizen").textContent = "ま";
@@ -192,7 +192,7 @@ mu.addEventListener("click", event => {
 });
 
 const muzu = document.getElementById("muzu")
-muzu.addEventListener("click", event => {
+muzu.addEventListener("touchstart", event => {
     document.getElementById("th").textContent = "むず";
     document.getElementById("connect").textContent = "未然形";
     document.getElementById("mizen").textContent = "";
@@ -216,7 +216,7 @@ muzu.addEventListener("click", event => {
 });
 
 const masi = document.getElementById("masi")
-masi.addEventListener("click", event => {
+masi.addEventListener("touchstart", event => {
     document.getElementById("th").textContent = "まし";
     document.getElementById("connect").textContent = "未然形";
     document.getElementById("mizen").textContent = "ませ";
@@ -240,7 +240,7 @@ masi.addEventListener("click", event => {
 });
 
 const mahosi = document.getElementById("mahosi")
-mahosi.addEventListener("click", event => {
+mahosi.addEventListener("touchstart", event => {
     document.getElementById("th").textContent = "まほし";
     document.getElementById("connect").textContent = "｢す｣｢さす｣｢ぬ｣の未然形";
     document.getElementById("mizen").textContent = "まほしから";
@@ -264,7 +264,7 @@ mahosi.addEventListener("click", event => {
 });
 
 const ki = document.getElementById("ki")
-ki.addEventListener("click", event => {
+ki.addEventListener("touchstart", event => {
     document.getElementById("th").textContent = "き";
     document.getElementById("connect").textContent = "連用形(カ変サ変は未然にも)";
     document.getElementById("mizen").textContent = "せ";
@@ -288,7 +288,7 @@ ki.addEventListener("click", event => {
 });
 
 const keri = document.getElementById("keri")
-keri.addEventListener("click", event => {
+keri.addEventListener("touchstart", event => {
     document.getElementById("th").textContent = "けり";
     document.getElementById("connect").textContent = "連用形";
     document.getElementById("mizen").textContent = "けら";
@@ -312,7 +312,7 @@ keri.addEventListener("click", event => {
 });
 
 const tu = document.getElementById("tu")
-tu.addEventListener("click", event => {
+tu.addEventListener("touchstart", event => {
     document.getElementById("th").textContent = "つ";
     document.getElementById("connect").textContent = "連用形";
     document.getElementById("mizen").textContent = "て";
@@ -336,7 +336,7 @@ tu.addEventListener("click", event => {
 });
 
 const nu = document.getElementById("nu")
-nu.addEventListener("click", event => {
+nu.addEventListener("touchstart", event => {
     document.getElementById("th").textContent = "ぬ";
     document.getElementById("connect").textContent = "連用形";
     document.getElementById("mizen").textContent = "な";
@@ -360,7 +360,7 @@ nu.addEventListener("click", event => {
 });
 
 const tari = document.getElementById("tari")
-tari.addEventListener("click", event => {
+tari.addEventListener("touchstart", event => {
     document.getElementById("th").textContent = "たり";
     document.getElementById("connect").textContent = "連用形";
     document.getElementById("mizen").textContent = "たら";
@@ -384,7 +384,7 @@ tari.addEventListener("click", event => {
 });
 
 const kemu = document.getElementById("kemu")
-kemu.addEventListener("click", event => {
+kemu.addEventListener("touchstart", event => {
     document.getElementById("th").textContent = "けむ";
     document.getElementById("connect").textContent = "連用形";
     document.getElementById("mizen").textContent = "";
@@ -408,7 +408,7 @@ kemu.addEventListener("click", event => {
 });
 
 const tasi = document.getElementById("tasi")
-tasi.addEventListener("click", event => {
+tasi.addEventListener("touchstart", event => {
     document.getElementById("th").textContent = "たし";
     document.getElementById("connect").textContent = "｢る｣｢らる｣｢す｣｢さす｣の連用形";
     document.getElementById("mizen").textContent = "たから";
@@ -432,7 +432,7 @@ tasi.addEventListener("click", event => {
 });
 
 const besi = document.getElementById("besi")
-besi.addEventListener("click", event => {
+besi.addEventListener("touchstart", event => {
     document.getElementById("th").textContent = "べし";
     document.getElementById("connect").textContent = "終止形(ラ変には連体)";
     document.getElementById("mizen").textContent = "べから";
@@ -456,7 +456,7 @@ besi.addEventListener("click", event => {
 });
 
 const ramu = document.getElementById("ramu")
-ramu.addEventListener("click", event => {
+ramu.addEventListener("touchstart", event => {
     document.getElementById("th").textContent = "らむ";
     document.getElementById("connect").textContent = "終止形(ラ変には連体)";
     document.getElementById("mizen").textContent = "";
@@ -480,7 +480,7 @@ ramu.addEventListener("click", event => {
 });
 
 const rasi = document.getElementById("rasi")
-rasi.addEventListener("click", event => {
+rasi.addEventListener("touchstart", event => {
     document.getElementById("th").textContent = "らし";
     document.getElementById("connect").textContent = "終止形(ラ変には連体)";
     document.getElementById("mizen").textContent = "";
@@ -504,7 +504,7 @@ rasi.addEventListener("click", event => {
 });
 
 const meri = document.getElementById("meri")
-meri.addEventListener("click", event => {
+meri.addEventListener("touchstart", event => {
     document.getElementById("th").textContent = "めり";
     document.getElementById("connect").textContent = "終止形(ラ変には連体)";
     document.getElementById("mizen").textContent = "";
@@ -528,7 +528,7 @@ meri.addEventListener("click", event => {
 });
 
 const nari = document.getElementById("nari")
-nari.addEventListener("click", event => {
+nari.addEventListener("touchstart", event => {
     document.getElementById("th").textContent = "なり";
     document.getElementById("connect").textContent = "終止形(ラ変には連体)";
     document.getElementById("mizen").textContent = "";
@@ -552,7 +552,7 @@ nari.addEventListener("click", event => {
 });
 
 const maji = document.getElementById("maji")
-maji.addEventListener("click", event => {
+maji.addEventListener("touchstart", event => {
     document.getElementById("th").textContent = "まじ";
     document.getElementById("connect").textContent = "終止形(ラ変には連体)";
     document.getElementById("mizen").textContent = "まじから";
@@ -576,7 +576,7 @@ maji.addEventListener("click", event => {
 });
 
 const nari2 = document.getElementById("nari2")
-nari2.addEventListener("click", event => {
+nari2.addEventListener("touchstart", event => {
     document.getElementById("th").textContent = "なり";
     document.getElementById("connect").textContent = "体言・連体形";
     document.getElementById("mizen").textContent = "";
@@ -600,7 +600,7 @@ nari2.addEventListener("click", event => {
 });
 
 const tari2 = document.getElementById("tari2")
-tari2.addEventListener("click", event => {
+tari2.addEventListener("touchstart", event => {
     document.getElementById("th").textContent = "たり";
     document.getElementById("connect").textContent = "体言";
     document.getElementById("mizen").textContent = "";
@@ -624,7 +624,7 @@ tari2.addEventListener("click", event => {
 });
 
 const ri = document.getElementById("ri")
-ri.addEventListener("click", event => {
+ri.addEventListener("touchstart", event => {
     document.getElementById("th").textContent = "り";
     document.getElementById("connect").textContent = "サ変の未然・四段の已然";
     document.getElementById("mizen").textContent = "ら";
@@ -747,4 +747,5 @@ document.getElementById("i5").onclick = function () {
 document.getElementById("i6").onclick = function () {
     i6.style.color = "white"
 };
+
 
