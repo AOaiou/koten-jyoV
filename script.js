@@ -1223,59 +1223,59 @@ gotosi.addEventListener("touchstart", event => {
 });
 
 document.getElementById("connect").onclick = function () {
-    connect.style.color = "white"
+    connect.style.color = "red"
 };
 document.getElementById("mizen").onclick = function () {
-    mizen.style.color = "white"
+    mizen.style.color = "red"
 };
 document.getElementById("renyou").onclick = function () {
-    renyou.style.color = "white"
+    renyou.style.color = "red"
 };
 document.getElementById("syusi").onclick = function () {
-    syusi.style.color = "white"
+    syusi.style.color = "red"
 };
 document.getElementById("rentai").onclick = function () {
-    rentai.style.color = "white"
+    rentai.style.color = "red"
 };
 document.getElementById("izen").onclick = function () {
-    izen.style.color = "white"
+    izen.style.color = "red"
 };
 document.getElementById("meirei").onclick = function () {
-    meirei.style.color = "white"
+    meirei.style.color = "red"
 };
 document.getElementById("mizen2").onclick = function () {
-    mizen2.style.color = "white"
+    mizen2.style.color = "red"
 };
 document.getElementById("renyou2").onclick = function () {
-    renyou2.style.color = "white"
+    renyou2.style.color = "red"
 };
 document.getElementById("syusi2").onclick = function () {
-    syusi2.style.color = "white"
+    syusi2.style.color = "red"
 };
 document.getElementById("rentai2").onclick = function () {
-    rentai2.style.color = "white"
+    rentai2.style.color = "red"
 };
 document.getElementById("izen2").onclick = function () {
-    izen2.style.color = "white"
+    izen2.style.color = "red"
 };
 document.getElementById("meirei2").onclick = function () {
-    meirei2.style.color = "white"
+    meirei2.style.color = "red"
 };
 document.getElementById("i1").onclick = function () {
-    i1.style.color = "white"
+    i1.style.color = "red"
 };
 document.getElementById("i2").onclick = function () {
-    i2.style.color = "white"
+    i2.style.color = "red"
 };
 document.getElementById("i3").onclick = function () {
-    i3.style.color = "white"
+    i3.style.color = "red"
 };
 document.getElementById("i4").onclick = function () {
-    i4.style.color = "white"
+    i4.style.color = "red"
 };
 document.getElementById("i5").onclick = function () {
-    i5.style.color = "white"
+    i5.style.color = "red"
 };
 document.getElementById("i6").onclick = function () {
-    i6.style.color = "white"
+    i6.style.color = "red"
 };
