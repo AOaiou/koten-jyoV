@@ -11,7 +11,7 @@ body{display: flex;}
     background: skyblue;
 }
 #main{
-    width: 60vw;
+    width: 70vw;
     height: 50vh;
 }
 ul{
@@ -25,8 +25,8 @@ button{
 button:nth-child(odd){background: pink;}
 button:nth-child(even){background: lightpink;}
 table{
-    width: 60vw;
-    height: 50vh;
+    /*width: 60vw;
+    height: 50vh;*/
     border-collapse:collapse;
     margin-left: auto;
     margin-right: auto;
