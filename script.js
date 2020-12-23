@@ -18,8 +18,7 @@ const i4 = document.getElementById("i4");
 const i5 = document.getElementById("i5");
 const i6 = document.getElementById("i6");
 
-const ru = document.getElementById("ru")
-ru.addEventListener("onclick", event => {
+$('#ru').on('click', function(){
     document.getElementById("th").textContent = "る";
     document.getElementById("connect").textContent = "四段ナ変ラ変の未然形";
     document.getElementById("mizen").textContent = "れ";
@@ -61,8 +60,7 @@ ru.addEventListener("onclick", event => {
     i6.style.color = "gray"
 });
 
-const raru = document.getElementById("raru")
-raru.addEventListener("onclick", event => {
+$('#raru').on('click', function(){
     document.getElementById("th").textContent = "らる";
     document.getElementById("connect").textContent = "四段ナラ変以外の未然";
     document.getElementById("mizen").textContent = "られ";
@@ -104,8 +102,7 @@ raru.addEventListener("onclick", event => {
     i6.style.color = "gray"
 });
 
-const su = document.getElementById("su")
-su.addEventListener("onclick", event => {
+$('#su').on('click', function(){
     document.getElementById("th").textContent = "す";
     document.getElementById("connect").textContent = "四段ナ変ラ変の未然形";
     document.getElementById("mizen").textContent = "せ";
