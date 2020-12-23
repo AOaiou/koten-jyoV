@@ -23,6 +23,7 @@ ul{
 button{
     border: 0;
     height: 30px;
+    cursor: pointer;
 }
 button:nth-child(odd){background: pink;}
 button:nth-child(even){background: lightpink;}
