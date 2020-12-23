@@ -19,7 +19,7 @@ const i5 = document.getElementById("i5");
 const i6 = document.getElementById("i6");
 
 const ru = document.getElementById("ru")
-ru.addEventListener("touchstart", event => {
+ru.addEventListener("onclick", event => {
     document.getElementById("th").textContent = "る";
     document.getElementById("connect").textContent = "四段ナ変ラ変の未然形";
     document.getElementById("mizen").textContent = "れ";
@@ -62,7 +62,7 @@ ru.addEventListener("touchstart", event => {
 });
 
 const raru = document.getElementById("raru")
-raru.addEventListener("touchstart", event => {
+raru.addEventListener("onclick", event => {
     document.getElementById("th").textContent = "らる";
     document.getElementById("connect").textContent = "四段ナラ変以外の未然";
     document.getElementById("mizen").textContent = "られ";
@@ -105,7 +105,7 @@ raru.addEventListener("touchstart", event => {
 });
 
 const su = document.getElementById("su")
-su.addEventListener("touchstart", event => {
+su.addEventListener("onclick", event => {
     document.getElementById("th").textContent = "す";
     document.getElementById("connect").textContent = "四段ナ変ラ変の未然形";
     document.getElementById("mizen").textContent = "せ";
